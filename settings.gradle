@@ -1,0 +1,5 @@
+rootProject.name = 'MppProjectJavaServerClient'
+include 'Common'
+include 'Server'
+include 'Client'
+

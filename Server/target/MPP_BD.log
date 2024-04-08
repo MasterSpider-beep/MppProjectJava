@@ -1,0 +1,962 @@
+07 Apr 2024 14:52:04,353 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:../DB/TourismAgency.db}
+07 Apr 2024 14:52:04,358 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:../DB/TourismAgency.db}
+07 Apr 2024 14:52:04,359 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:../DB/TourismAgency.db}
+07 Apr 2024 15:05:18,069 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:../DB/TourismAgency.db}
+07 Apr 2024 15:05:18,074 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:../DB/TourismAgency.db}
+07 Apr 2024 15:05:18,076 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:../DB/TourismAgency.db}
+07 Apr 2024 15:05:32,533 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 15:05:32,533 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 15:05:32,534 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 15:05:32,534 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:../DB/TourismAgency.db
+07 Apr 2024 15:05:32,534 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 15:05:32,534 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 15:05:32,572 ERROR repository.JdbcUtils 41 getNewConnection - java.sql.SQLException: path to '../DB/TourismAgency.db': 'D:\Sem4\Mpp\MppProjectJavaServerClient\Server\..\DB' does not exist
+07 Apr 2024 15:05:32,573 TRACE repository.JdbcUtils 57 getConnection - Exit
+07 Apr 2024 15:06:11,361 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:../DB/TourismAgency.db}
+07 Apr 2024 15:06:11,367 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:../DB/TourismAgency.db}
+07 Apr 2024 15:06:11,368 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:../DB/TourismAgency.db}
+07 Apr 2024 15:06:49,757 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 15:06:49,758 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 15:06:49,759 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 15:06:49,759 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:../DB/TourismAgency.db
+07 Apr 2024 15:06:49,760 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 15:06:49,761 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 15:06:49,798 ERROR repository.JdbcUtils 41 getNewConnection - java.sql.SQLException: path to '../DB/TourismAgency.db': 'D:\Sem4\Mpp\MppProjectJavaServerClient\Server\..\DB' does not exist
+07 Apr 2024 15:06:49,799 TRACE repository.JdbcUtils 57 getConnection - Exit
+07 Apr 2024 15:09:14,924 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:../DB/TourismAgency.db}
+07 Apr 2024 15:09:14,929 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:../DB/TourismAgency.db}
+07 Apr 2024 15:09:14,931 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:../DB/TourismAgency.db}
+07 Apr 2024 15:09:52,299 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 15:10:07,703 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 15:10:11,799 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 15:12:04,296 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:../DB/TourismAgency.db}
+07 Apr 2024 15:12:04,302 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:../DB/TourismAgency.db}
+07 Apr 2024 15:12:04,303 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:../DB/TourismAgency.db}
+07 Apr 2024 15:12:19,273 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 15:12:21,753 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 15:12:24,589 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 15:12:28,760 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:../DB/TourismAgency.db
+07 Apr 2024 15:12:30,887 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 15:12:31,327 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 15:15:44,617 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.dbs}
+07 Apr 2024 15:15:44,622 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.dbs}
+07 Apr 2024 15:15:44,624 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.dbs}
+07 Apr 2024 15:15:47,891 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 15:15:47,892 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 15:15:47,892 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 15:15:47,892 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.dbs
+07 Apr 2024 15:15:47,892 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 15:15:47,892 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 15:15:48,258 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fe1ca1f)
+07 Apr 2024 15:15:48,262 ERROR repository.DBUsersRepository 40 checkUser - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Users)
+07 Apr 2024 15:17:25,207 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 15:17:25,212 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 15:17:25,213 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 15:17:34,568 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 15:17:34,569 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 15:17:34,569 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 15:17:34,569 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 15:17:34,569 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 15:17:34,569 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 15:17:34,753 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fe1ca1f)
+07 Apr 2024 15:17:34,758 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+07 Apr 2024 15:17:35,775 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 15:17:35,776 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 15:17:35,776 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 15:17:35,776 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 15:17:35,777 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 15:17:35,778 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@374ceb63)
+07 Apr 2024 15:17:35,778 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 15:17:35,786 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c98036dc])
+07 Apr 2024 15:17:55,755 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 15:17:55,756 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@374ceb63)
+07 Apr 2024 15:17:55,756 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 15:17:55,757 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@c98036dc])
+07 Apr 2024 15:18:05,646 TRACE repository.DBFlightsRepository 110 getOne - Enter Searching Flight with id: 5
+07 Apr 2024 15:18:05,647 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 15:18:05,647 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@374ceb63)
+07 Apr 2024 15:18:05,649 TRACE repository.DBFlightsRepository 89 updateFlight - Enter Update task domain.Flight@c98036bd elem
+07 Apr 2024 15:18:05,649 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 15:18:05,649 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@374ceb63)
+07 Apr 2024 15:18:05,659 TRACE repository.DBFlightsRepository 100 updateFlight - Updated 1 entries
+07 Apr 2024 15:18:05,660 TRACE repository.DBTicketRepository 81 addOne - Enter saving task domain.Ticket@775dc41 elem
+07 Apr 2024 15:18:05,660 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 15:18:05,660 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 15:18:05,660 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 15:18:05,660 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 15:18:05,660 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 15:18:05,662 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7497fbcf)
+07 Apr 2024 15:18:05,668 TRACE repository.DBTicketRepository 97 addOne - Saved 1 entities
+07 Apr 2024 15:18:06,672 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 15:18:06,672 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@374ceb63)
+07 Apr 2024 15:18:06,673 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 15:18:06,674 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c98036bd])
+07 Apr 2024 15:18:07,680 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 15:18:07,681 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@374ceb63)
+07 Apr 2024 15:18:07,681 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 15:18:07,682 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c98036bd])
+07 Apr 2024 16:45:13,224 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 16:45:13,233 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 16:45:13,235 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 16:45:25,571 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 16:45:25,573 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 16:45:25,574 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 16:45:25,575 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 16:45:25,576 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 16:45:25,576 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 16:45:30,600 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2419c35d)
+07 Apr 2024 16:45:30,615 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+07 Apr 2024 16:45:31,634 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 16:45:31,634 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 16:45:31,634 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 16:45:31,635 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 16:45:31,635 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 16:45:31,636 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a23b927)
+07 Apr 2024 16:45:31,636 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 16:45:31,648 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c98036bd])
+07 Apr 2024 16:46:07,484 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 16:46:07,484 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a23b927)
+07 Apr 2024 16:46:07,484 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 16:46:07,486 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@c98036bd])
+07 Apr 2024 16:46:17,536 TRACE repository.DBFlightsRepository 110 getOne - Enter Searching Flight with id: 5
+07 Apr 2024 16:46:17,536 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 16:46:17,537 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a23b927)
+07 Apr 2024 16:46:27,080 TRACE repository.DBFlightsRepository 89 updateFlight - Enter Update task domain.Flight@c980369e elem
+07 Apr 2024 16:46:27,081 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 16:46:27,082 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a23b927)
+07 Apr 2024 16:46:27,098 TRACE repository.DBFlightsRepository 100 updateFlight - Updated 1 entries
+07 Apr 2024 16:46:28,008 TRACE repository.DBTicketRepository 81 addOne - Enter saving task domain.Ticket@7756421 elem
+07 Apr 2024 16:46:28,009 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 16:46:28,010 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 16:46:28,011 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 16:46:28,011 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 16:46:28,012 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 16:46:28,017 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b4cb6c5)
+07 Apr 2024 16:46:28,029 TRACE repository.DBTicketRepository 97 addOne - Saved 1 entities
+07 Apr 2024 16:47:32,463 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 16:47:32,467 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 16:47:32,468 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 16:49:09,487 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 16:49:09,489 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 16:49:09,489 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 16:49:09,489 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 16:49:09,489 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 16:49:09,490 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 16:49:09,747 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d26e0ba)
+07 Apr 2024 16:49:09,755 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+07 Apr 2024 16:49:30,006 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 16:49:30,007 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 16:49:30,007 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 16:49:30,007 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 16:49:30,007 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 16:49:30,009 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5893b134)
+07 Apr 2024 16:49:30,009 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 16:49:30,021 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c980369e])
+07 Apr 2024 16:51:27,387 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 16:51:27,388 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5893b134)
+07 Apr 2024 16:51:27,388 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 16:51:27,390 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@c980369e])
+07 Apr 2024 16:52:23,856 TRACE repository.DBFlightsRepository 110 getOne - Enter Searching Flight with id: 5
+07 Apr 2024 16:52:23,857 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 16:52:23,858 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5893b134)
+07 Apr 2024 16:52:27,943 TRACE repository.DBFlightsRepository 89 updateFlight - Enter Update task domain.Flight@c980367f elem
+07 Apr 2024 16:52:27,944 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 16:52:27,944 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5893b134)
+07 Apr 2024 16:52:27,959 TRACE repository.DBFlightsRepository 100 updateFlight - Updated 1 entries
+07 Apr 2024 16:52:28,456 TRACE repository.DBTicketRepository 81 addOne - Enter saving task domain.Ticket@947d061 elem
+07 Apr 2024 16:52:28,457 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 16:52:28,457 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 16:52:28,458 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 16:52:28,459 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 16:52:28,460 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 16:52:28,464 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@61cd5379)
+07 Apr 2024 16:52:28,472 TRACE repository.DBTicketRepository 97 addOne - Saved 1 entities
+07 Apr 2024 16:53:36,521 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 16:53:36,528 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 16:53:36,530 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 16:53:41,237 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 16:53:41,237 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 16:53:41,238 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 16:53:41,238 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 16:53:41,238 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 16:53:41,238 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 16:53:41,441 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@37220d4d)
+07 Apr 2024 16:53:41,448 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+07 Apr 2024 16:53:46,563 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 16:53:46,563 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 16:53:46,563 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 16:53:46,564 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 16:53:46,564 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 16:53:46,565 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5a20710c)
+07 Apr 2024 16:53:46,566 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 16:53:46,576 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c980367f])
+07 Apr 2024 16:54:19,228 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 16:54:19,228 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5a20710c)
+07 Apr 2024 16:54:19,228 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 16:54:19,230 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@c98037b5])
+07 Apr 2024 16:54:44,676 TRACE repository.DBFlightsRepository 110 getOne - Enter Searching Flight with id: 5
+07 Apr 2024 16:54:44,676 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 16:54:44,677 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5a20710c)
+07 Apr 2024 16:54:47,614 TRACE repository.DBFlightsRepository 89 updateFlight - Enter Update task domain.Flight@c9803796 elem
+07 Apr 2024 16:54:47,615 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 16:54:47,615 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5a20710c)
+07 Apr 2024 16:54:47,631 TRACE repository.DBFlightsRepository 100 updateFlight - Updated 1 entries
+07 Apr 2024 16:54:48,111 TRACE repository.DBTicketRepository 81 addOne - Enter saving task domain.Ticket@775dc41 elem
+07 Apr 2024 16:54:48,112 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 16:54:48,113 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 16:54:48,114 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 16:54:48,115 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 16:54:48,116 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 16:54:48,120 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@19e3920e)
+07 Apr 2024 16:54:48,128 TRACE repository.DBTicketRepository 97 addOne - Saved 1 entities
+07 Apr 2024 16:55:42,959 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 16:55:42,960 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5a20710c)
+07 Apr 2024 16:55:42,961 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 16:55:42,964 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c9803796])
+07 Apr 2024 17:00:34,833 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:00:34,838 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:00:34,840 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:01:00,166 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 17:01:00,167 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:01:00,167 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:01:00,167 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:01:00,168 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:01:00,168 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:01:00,444 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@37220d4d)
+07 Apr 2024 17:01:00,450 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+07 Apr 2024 17:01:38,564 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:01:38,565 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:01:38,566 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:01:38,567 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:01:38,567 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:01:38,569 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a23b927)
+07 Apr 2024 17:01:38,570 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:01:38,581 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c9803796])
+07 Apr 2024 17:02:12,387 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:02:12,388 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a23b927)
+07 Apr 2024 17:02:12,388 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:02:12,389 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@c9803796])
+07 Apr 2024 17:02:20,480 TRACE repository.DBFlightsRepository 110 getOne - Enter Searching Flight with id: 5
+07 Apr 2024 17:02:20,480 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:02:20,480 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a23b927)
+07 Apr 2024 17:02:20,482 TRACE repository.DBFlightsRepository 89 updateFlight - Enter Update task domain.Flight@c9803777 elem
+07 Apr 2024 17:02:20,483 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:02:20,483 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a23b927)
+07 Apr 2024 17:02:20,494 TRACE repository.DBFlightsRepository 100 updateFlight - Updated 1 entries
+07 Apr 2024 17:02:20,495 TRACE repository.DBTicketRepository 81 addOne - Enter saving task domain.Ticket@947d061 elem
+07 Apr 2024 17:02:20,495 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:02:20,495 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:02:20,495 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:02:20,496 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:02:20,496 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:02:20,499 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5b4cb6c5)
+07 Apr 2024 17:02:20,505 TRACE repository.DBTicketRepository 97 addOne - Saved 1 entities
+07 Apr 2024 17:03:41,606 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:03:41,611 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:03:41,612 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:03:42,901 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 17:03:42,902 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:03:42,902 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:03:42,902 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:03:42,903 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:03:42,903 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:03:43,175 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3af23347)
+07 Apr 2024 17:03:43,183 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+07 Apr 2024 17:03:47,921 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:03:47,922 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:03:47,922 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:03:47,923 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:03:47,923 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:03:47,924 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@40ca0833)
+07 Apr 2024 17:03:47,924 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:03:47,933 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c9803777])
+07 Apr 2024 17:03:55,124 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:03:55,124 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@40ca0833)
+07 Apr 2024 17:03:55,124 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:03:55,126 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@c9803777])
+07 Apr 2024 17:03:58,144 TRACE repository.DBFlightsRepository 110 getOne - Enter Searching Flight with id: 5
+07 Apr 2024 17:03:58,144 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:03:58,145 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@40ca0833)
+07 Apr 2024 17:03:58,147 TRACE repository.DBFlightsRepository 89 updateFlight - Enter Update task domain.Flight@c9803758 elem
+07 Apr 2024 17:03:58,147 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:03:58,147 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@40ca0833)
+07 Apr 2024 17:03:58,155 TRACE repository.DBFlightsRepository 100 updateFlight - Updated 1 entries
+07 Apr 2024 17:03:58,156 TRACE repository.DBTicketRepository 81 addOne - Enter saving task domain.Ticket@947d061 elem
+07 Apr 2024 17:03:58,156 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:03:58,156 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:03:58,156 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:03:58,156 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:03:58,157 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:03:58,159 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1f4e473b)
+07 Apr 2024 17:03:58,165 TRACE repository.DBTicketRepository 97 addOne - Saved 1 entities
+07 Apr 2024 17:04:55,926 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:04:55,927 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@40ca0833)
+07 Apr 2024 17:04:55,927 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:04:55,929 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c9803758])
+07 Apr 2024 17:05:35,202 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:05:35,212 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:05:35,215 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:06:03,397 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 17:06:03,398 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:06:03,398 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:06:03,398 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:06:03,398 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:06:03,399 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:06:03,610 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3af23347)
+07 Apr 2024 17:06:03,618 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+07 Apr 2024 17:06:08,497 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:06:08,497 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:06:08,498 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:06:08,498 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:06:08,498 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:06:08,499 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@40ca0833)
+07 Apr 2024 17:06:08,499 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:06:08,506 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c9803758])
+07 Apr 2024 17:06:15,781 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:06:15,781 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@40ca0833)
+07 Apr 2024 17:06:15,782 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:06:15,782 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@c9803758])
+07 Apr 2024 17:06:18,369 TRACE repository.DBFlightsRepository 110 getOne - Enter Searching Flight with id: 5
+07 Apr 2024 17:06:18,369 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:06:18,370 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@40ca0833)
+07 Apr 2024 17:06:18,372 TRACE repository.DBFlightsRepository 89 updateFlight - Enter Update task domain.Flight@c9803739 elem
+07 Apr 2024 17:06:18,372 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:06:18,372 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@40ca0833)
+07 Apr 2024 17:06:18,379 TRACE repository.DBFlightsRepository 100 updateFlight - Updated 1 entries
+07 Apr 2024 17:06:18,380 TRACE repository.DBTicketRepository 81 addOne - Enter saving task domain.Ticket@947d061 elem
+07 Apr 2024 17:06:18,380 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:06:18,380 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:06:18,380 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:06:18,380 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:06:18,380 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:06:18,383 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1f4e473b)
+07 Apr 2024 17:06:18,388 TRACE repository.DBTicketRepository 97 addOne - Saved 1 entities
+07 Apr 2024 17:07:15,304 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:07:15,305 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@40ca0833)
+07 Apr 2024 17:07:15,305 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:07:15,309 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c9803739])
+07 Apr 2024 17:09:47,437 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:09:47,452 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:09:47,455 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:09:53,536 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 17:09:53,537 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:09:53,537 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:09:53,537 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:09:53,538 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:09:53,538 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:09:53,823 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@50dce47f)
+07 Apr 2024 17:09:53,829 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+07 Apr 2024 17:09:54,845 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:09:54,845 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:09:54,845 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:09:54,846 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:09:54,846 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:09:54,847 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6c76f752)
+07 Apr 2024 17:09:54,847 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:09:54,855 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c9803739])
+07 Apr 2024 17:10:21,996 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:10:21,997 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6c76f752)
+07 Apr 2024 17:10:21,997 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:10:21,998 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@c9803739])
+07 Apr 2024 17:10:28,471 TRACE repository.DBFlightsRepository 110 getOne - Enter Searching Flight with id: 5
+07 Apr 2024 17:10:28,471 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:10:28,471 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6c76f752)
+07 Apr 2024 17:10:28,473 TRACE repository.DBFlightsRepository 89 updateFlight - Enter Update task domain.Flight@c980371a elem
+07 Apr 2024 17:10:28,473 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:10:28,474 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6c76f752)
+07 Apr 2024 17:10:28,481 TRACE repository.DBFlightsRepository 100 updateFlight - Updated 1 entries
+07 Apr 2024 17:10:28,481 TRACE repository.DBTicketRepository 81 addOne - Enter saving task domain.Ticket@947d061 elem
+07 Apr 2024 17:10:28,482 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:10:28,482 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:10:28,482 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:10:28,482 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:10:28,482 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:10:28,484 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b02b920)
+07 Apr 2024 17:10:28,489 TRACE repository.DBTicketRepository 97 addOne - Saved 1 entities
+07 Apr 2024 17:12:52,004 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:12:52,009 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:12:52,012 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:12:55,591 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 17:12:55,592 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:12:55,592 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:12:55,592 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:12:55,592 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:12:55,592 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:12:55,861 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3c7838f9)
+07 Apr 2024 17:12:55,867 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+07 Apr 2024 17:12:56,887 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:12:56,888 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:12:56,888 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:12:56,889 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:12:56,889 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:12:56,890 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@158b7ad)
+07 Apr 2024 17:12:56,890 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:12:56,898 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c980371a])
+07 Apr 2024 17:13:03,236 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:13:03,237 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@158b7ad)
+07 Apr 2024 17:13:03,237 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:13:03,238 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@c980371a])
+07 Apr 2024 17:13:07,061 TRACE repository.DBFlightsRepository 110 getOne - Enter Searching Flight with id: 5
+07 Apr 2024 17:13:07,061 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:13:07,061 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@158b7ad)
+07 Apr 2024 17:13:07,063 TRACE repository.DBFlightsRepository 89 updateFlight - Enter Update task domain.Flight@c98036fb elem
+07 Apr 2024 17:13:07,063 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:13:07,063 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@158b7ad)
+07 Apr 2024 17:13:07,074 TRACE repository.DBFlightsRepository 100 updateFlight - Updated 1 entries
+07 Apr 2024 17:13:07,074 TRACE repository.DBTicketRepository 81 addOne - Enter saving task domain.Ticket@7756041 elem
+07 Apr 2024 17:13:07,074 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:13:07,074 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:13:07,074 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:13:07,075 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:13:07,075 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:13:07,077 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@41622f33)
+07 Apr 2024 17:13:07,082 TRACE repository.DBTicketRepository 97 addOne - Saved 1 entities
+07 Apr 2024 17:13:08,092 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:13:08,093 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@158b7ad)
+07 Apr 2024 17:13:08,093 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:13:08,094 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c98036fb])
+07 Apr 2024 17:14:51,423 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:14:51,433 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:14:51,435 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:15:02,146 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 17:15:02,146 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:15:02,147 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:15:02,147 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:15:02,147 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:15:02,148 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:15:02,335 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@63578119)
+07 Apr 2024 17:15:02,341 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+07 Apr 2024 17:15:05,007 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:15:05,008 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:15:05,008 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:15:05,008 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:15:05,009 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:15:05,010 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@8bdb10f)
+07 Apr 2024 17:15:05,010 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:15:05,017 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c98036fb])
+07 Apr 2024 17:15:19,400 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:15:19,401 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@8bdb10f)
+07 Apr 2024 17:15:19,401 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:15:19,403 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@c98036fb])
+07 Apr 2024 17:15:56,233 TRACE repository.DBFlightsRepository 110 getOne - Enter Searching Flight with id: 5
+07 Apr 2024 17:15:56,234 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:15:56,235 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@8bdb10f)
+07 Apr 2024 17:15:56,240 TRACE repository.DBFlightsRepository 89 updateFlight - Enter Update task domain.Flight@c98036dc elem
+07 Apr 2024 17:15:56,240 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:15:56,241 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@8bdb10f)
+07 Apr 2024 17:15:56,260 TRACE repository.DBFlightsRepository 100 updateFlight - Updated 1 entries
+07 Apr 2024 17:15:56,261 TRACE repository.DBTicketRepository 81 addOne - Enter saving task domain.Ticket@775dc41 elem
+07 Apr 2024 17:15:56,261 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:15:56,262 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:15:56,262 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:15:56,263 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:15:56,263 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:15:56,266 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@78567d48)
+07 Apr 2024 17:15:56,273 TRACE repository.DBTicketRepository 97 addOne - Saved 1 entities
+07 Apr 2024 17:17:14,769 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:17:14,770 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@8bdb10f)
+07 Apr 2024 17:17:14,770 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:17:14,774 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c98036dc])
+07 Apr 2024 17:18:06,327 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:18:06,331 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:18:06,332 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:18:28,762 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 17:18:28,763 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:18:28,763 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:18:28,763 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:18:28,764 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:18:28,764 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:18:28,971 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3c7838f9)
+07 Apr 2024 17:18:28,978 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+07 Apr 2024 17:18:31,899 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:18:31,900 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:18:31,900 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:18:31,901 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:18:31,901 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:18:31,902 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@158b7ad)
+07 Apr 2024 17:18:31,903 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:18:31,910 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c98036dc])
+07 Apr 2024 17:18:46,038 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:18:46,039 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@158b7ad)
+07 Apr 2024 17:18:46,039 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:18:46,041 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@c98036dc])
+07 Apr 2024 17:19:35,927 TRACE repository.DBFlightsRepository 110 getOne - Enter Searching Flight with id: 5
+07 Apr 2024 17:19:35,927 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:19:35,927 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@158b7ad)
+07 Apr 2024 17:19:35,930 TRACE repository.DBFlightsRepository 89 updateFlight - Enter Update task domain.Flight@c98036bd elem
+07 Apr 2024 17:19:35,930 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:19:35,930 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@158b7ad)
+07 Apr 2024 17:19:35,942 TRACE repository.DBFlightsRepository 100 updateFlight - Updated 1 entries
+07 Apr 2024 17:19:35,942 TRACE repository.DBTicketRepository 81 addOne - Enter saving task domain.Ticket@775dc41 elem
+07 Apr 2024 17:19:35,943 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:19:35,943 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:19:35,943 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:19:35,943 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:19:35,943 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:19:35,945 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@41622f33)
+07 Apr 2024 17:19:35,952 TRACE repository.DBTicketRepository 97 addOne - Saved 1 entities
+07 Apr 2024 17:19:38,949 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:19:38,949 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@158b7ad)
+07 Apr 2024 17:19:38,949 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:19:38,950 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c98036bd])
+07 Apr 2024 17:20:36,985 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:20:36,989 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:20:36,989 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:21:00,667 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 17:21:00,668 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:21:00,668 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:21:00,668 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:21:00,668 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:21:00,669 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:21:00,871 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b288575)
+07 Apr 2024 17:21:00,878 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+07 Apr 2024 17:21:06,792 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:21:06,792 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:21:06,793 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:21:06,793 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:21:06,793 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:21:06,794 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ad45ad)
+07 Apr 2024 17:21:06,794 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:21:06,802 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c98036bd])
+07 Apr 2024 17:21:18,426 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:21:18,426 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ad45ad)
+07 Apr 2024 17:21:18,426 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:21:18,428 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@c98036bd])
+07 Apr 2024 17:21:29,448 TRACE repository.DBFlightsRepository 110 getOne - Enter Searching Flight with id: 5
+07 Apr 2024 17:21:29,448 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:21:29,448 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ad45ad)
+07 Apr 2024 17:21:29,449 TRACE repository.DBFlightsRepository 89 updateFlight - Enter Update task domain.Flight@c980369e elem
+07 Apr 2024 17:21:29,450 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:21:29,450 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ad45ad)
+07 Apr 2024 17:21:29,457 TRACE repository.DBFlightsRepository 100 updateFlight - Updated 1 entries
+07 Apr 2024 17:21:29,458 TRACE repository.DBTicketRepository 81 addOne - Enter saving task domain.Ticket@775dc41 elem
+07 Apr 2024 17:21:29,458 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:21:29,458 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:21:29,458 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:21:29,458 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:21:29,458 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:21:29,460 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@55b23b73)
+07 Apr 2024 17:21:29,466 TRACE repository.DBTicketRepository 97 addOne - Saved 1 entities
+07 Apr 2024 17:22:20,993 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:22:20,994 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ad45ad)
+07 Apr 2024 17:22:20,994 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:22:20,995 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c980369e])
+07 Apr 2024 17:26:46,784 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:26:46,789 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:26:46,790 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:27:05,168 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 17:27:05,169 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:27:05,169 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:27:05,169 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:27:05,170 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:27:05,170 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:27:05,436 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b288575)
+07 Apr 2024 17:27:05,441 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+07 Apr 2024 17:27:08,779 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:27:08,779 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:27:08,779 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:27:08,780 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:27:08,780 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:27:08,781 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ad45ad)
+07 Apr 2024 17:27:08,782 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:27:08,789 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c980369e])
+07 Apr 2024 17:27:20,701 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:27:20,702 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ad45ad)
+07 Apr 2024 17:27:20,702 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:27:20,703 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@c980369e])
+07 Apr 2024 17:27:26,167 TRACE repository.DBFlightsRepository 110 getOne - Enter Searching Flight with id: 5
+07 Apr 2024 17:27:26,168 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:27:26,168 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ad45ad)
+07 Apr 2024 17:27:26,170 TRACE repository.DBFlightsRepository 89 updateFlight - Enter Update task domain.Flight@c980367f elem
+07 Apr 2024 17:27:26,170 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:27:26,170 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ad45ad)
+07 Apr 2024 17:27:26,178 TRACE repository.DBFlightsRepository 100 updateFlight - Updated 1 entries
+07 Apr 2024 17:27:26,178 TRACE repository.DBTicketRepository 81 addOne - Enter saving task domain.Ticket@947d061 elem
+07 Apr 2024 17:27:26,178 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:27:26,178 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:27:26,179 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:27:26,179 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:27:26,179 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:27:26,181 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@55b23b73)
+07 Apr 2024 17:27:26,186 TRACE repository.DBTicketRepository 97 addOne - Saved 1 entities
+07 Apr 2024 17:27:53,865 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:27:53,865 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ad45ad)
+07 Apr 2024 17:27:53,865 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:27:53,866 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c980367f])
+07 Apr 2024 17:28:27,461 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:28:27,465 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:28:27,467 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:28:54,928 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 17:28:54,929 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:28:54,929 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:28:54,929 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:28:54,929 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:28:54,929 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:28:55,112 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b288575)
+07 Apr 2024 17:28:55,118 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+07 Apr 2024 17:29:07,250 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:29:07,250 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:29:07,250 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:29:07,250 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:29:07,251 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:29:07,252 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ad45ad)
+07 Apr 2024 17:29:07,252 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:29:07,260 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c980367f])
+07 Apr 2024 17:29:36,424 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:29:36,425 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ad45ad)
+07 Apr 2024 17:29:36,425 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:29:36,426 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@c98037b5])
+07 Apr 2024 17:29:45,061 TRACE repository.DBFlightsRepository 110 getOne - Enter Searching Flight with id: 5
+07 Apr 2024 17:29:45,061 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:29:45,062 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ad45ad)
+07 Apr 2024 17:29:45,063 TRACE repository.DBFlightsRepository 89 updateFlight - Enter Update task domain.Flight@c9803796 elem
+07 Apr 2024 17:29:45,063 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:29:45,063 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ad45ad)
+07 Apr 2024 17:29:45,071 TRACE repository.DBFlightsRepository 100 updateFlight - Updated 1 entries
+07 Apr 2024 17:29:45,071 TRACE repository.DBTicketRepository 81 addOne - Enter saving task domain.Ticket@947d061 elem
+07 Apr 2024 17:29:45,071 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:29:45,072 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:29:45,072 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:29:45,072 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:29:45,072 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:29:45,074 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@55b23b73)
+07 Apr 2024 17:29:45,079 TRACE repository.DBTicketRepository 97 addOne - Saved 1 entities
+07 Apr 2024 17:30:17,923 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:30:17,923 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ad45ad)
+07 Apr 2024 17:30:17,924 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:30:17,925 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c9803796])
+07 Apr 2024 17:31:08,840 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:31:08,845 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:31:08,846 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:31:25,300 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 17:31:25,300 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:31:25,301 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:31:25,301 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:31:25,301 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:31:25,301 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:31:25,497 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b288575)
+07 Apr 2024 17:31:25,503 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+07 Apr 2024 17:31:39,397 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:31:39,397 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:31:39,397 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:31:39,397 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:31:39,398 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:31:39,398 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ad45ad)
+07 Apr 2024 17:31:39,399 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:31:39,408 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c9803796])
+07 Apr 2024 17:31:49,261 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:31:49,262 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ad45ad)
+07 Apr 2024 17:31:49,262 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:31:49,263 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@c9803796])
+07 Apr 2024 17:31:56,436 TRACE repository.DBFlightsRepository 110 getOne - Enter Searching Flight with id: 5
+07 Apr 2024 17:31:56,437 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:31:56,437 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ad45ad)
+07 Apr 2024 17:31:56,438 TRACE repository.DBFlightsRepository 89 updateFlight - Enter Update task domain.Flight@c9803777 elem
+07 Apr 2024 17:31:56,438 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:31:56,439 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ad45ad)
+07 Apr 2024 17:31:56,446 TRACE repository.DBFlightsRepository 100 updateFlight - Updated 1 entries
+07 Apr 2024 17:31:56,446 TRACE repository.DBTicketRepository 81 addOne - Enter saving task domain.Ticket@947d061 elem
+07 Apr 2024 17:31:56,446 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:31:56,446 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:31:56,446 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:31:56,447 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:31:56,447 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:31:56,449 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@55b23b73)
+07 Apr 2024 17:31:56,453 TRACE repository.DBTicketRepository 97 addOne - Saved 1 entities
+07 Apr 2024 17:32:02,496 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:32:02,496 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ad45ad)
+07 Apr 2024 17:32:02,496 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:32:02,497 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c9803777])
+07 Apr 2024 17:39:23,600 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:39:23,604 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:39:23,606 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 17:39:35,766 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 17:39:35,767 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:39:35,767 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:39:35,767 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:39:35,767 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:39:35,768 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:39:36,075 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59c6b27c)
+07 Apr 2024 17:39:36,083 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+07 Apr 2024 17:39:37,093 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:39:37,094 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:39:37,094 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:39:37,094 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:39:37,094 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:39:37,095 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7e66e7d9)
+07 Apr 2024 17:39:37,096 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:39:37,102 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c9803777])
+07 Apr 2024 17:39:43,287 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:39:43,287 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7e66e7d9)
+07 Apr 2024 17:39:43,287 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:39:43,289 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@c9803777])
+07 Apr 2024 17:39:47,073 TRACE repository.DBFlightsRepository 110 getOne - Enter Searching Flight with id: 5
+07 Apr 2024 17:39:47,074 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:39:47,074 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7e66e7d9)
+07 Apr 2024 17:39:47,075 TRACE repository.DBFlightsRepository 89 updateFlight - Enter Update task domain.Flight@c9803758 elem
+07 Apr 2024 17:39:47,076 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:39:47,076 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7e66e7d9)
+07 Apr 2024 17:39:47,082 TRACE repository.DBFlightsRepository 100 updateFlight - Updated 1 entries
+07 Apr 2024 17:39:47,083 TRACE repository.DBTicketRepository 81 addOne - Enter saving task domain.Ticket@775dc41 elem
+07 Apr 2024 17:39:47,083 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:39:47,083 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 17:39:47,083 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 17:39:47,083 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 17:39:47,083 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 17:39:47,085 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@9433f8c)
+07 Apr 2024 17:39:47,089 TRACE repository.DBTicketRepository 97 addOne - Saved 1 entities
+07 Apr 2024 17:39:47,090 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 17:39:47,090 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7e66e7d9)
+07 Apr 2024 17:39:47,090 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 17:39:47,091 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c9803758])
+07 Apr 2024 18:05:58,771 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 18:05:58,795 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 18:05:58,806 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 18:06:23,491 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 18:06:23,491 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 18:06:23,491 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 18:06:23,492 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 18:06:23,492 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 18:06:23,492 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 18:06:23,730 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b288575)
+07 Apr 2024 18:06:23,735 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+07 Apr 2024 18:06:24,747 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 18:06:24,748 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 18:06:24,748 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 18:06:24,748 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 18:06:24,749 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 18:06:24,749 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ad45ad)
+07 Apr 2024 18:06:24,750 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 18:06:24,756 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c9803758])
+07 Apr 2024 18:06:28,094 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user luci
+07 Apr 2024 18:06:28,095 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 18:06:28,095 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b288575)
+07 Apr 2024 18:06:28,096 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+07 Apr 2024 18:06:37,139 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user luci
+07 Apr 2024 18:06:37,139 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 18:06:37,140 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b288575)
+07 Apr 2024 18:06:37,140 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+07 Apr 2024 18:09:59,503 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 18:09:59,509 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 18:09:59,510 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 18:10:09,365 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 18:10:09,365 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 18:10:09,366 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 18:10:09,366 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 18:10:09,366 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 18:10:09,367 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 18:10:09,559 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@61dcd1ec)
+07 Apr 2024 18:10:09,566 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+07 Apr 2024 18:11:08,410 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 18:11:08,415 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 18:11:08,417 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+07 Apr 2024 18:11:08,954 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+07 Apr 2024 18:11:08,955 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 18:11:08,955 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 18:11:08,956 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 18:11:08,956 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 18:11:08,957 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 18:11:09,226 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b288575)
+07 Apr 2024 18:11:09,233 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+07 Apr 2024 18:11:09,235 TRACE repository.DBUsersRepository 47 getOne - Enter Getting user with username: admin
+07 Apr 2024 18:11:09,235 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 18:11:09,235 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b288575)
+07 Apr 2024 18:11:09,239 TRACE repository.DBUsersRepository 57 getOne - Exit Found user with id 1
+07 Apr 2024 18:11:10,247 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 18:11:10,248 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 18:11:10,248 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 18:11:10,249 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 18:11:10,250 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 18:11:10,251 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a2e3f9c)
+07 Apr 2024 18:11:10,251 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 18:11:10,255 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c9803758])
+07 Apr 2024 18:11:17,393 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user luci
+07 Apr 2024 18:11:17,394 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 18:11:17,394 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b288575)
+07 Apr 2024 18:11:17,394 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+07 Apr 2024 18:11:17,395 TRACE repository.DBUsersRepository 47 getOne - Enter Getting user with username: luci
+07 Apr 2024 18:11:17,395 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 18:11:17,395 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2b288575)
+07 Apr 2024 18:11:17,395 TRACE repository.DBUsersRepository 57 getOne - Exit Found user with id 2
+07 Apr 2024 18:11:18,405 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 18:11:18,406 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a2e3f9c)
+07 Apr 2024 18:11:18,406 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 18:11:18,407 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c9803758])
+07 Apr 2024 18:11:31,937 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 18:11:31,937 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a2e3f9c)
+07 Apr 2024 18:11:31,937 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 18:11:31,939 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@c9803758])
+07 Apr 2024 18:11:38,121 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 18:11:38,121 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a2e3f9c)
+07 Apr 2024 18:11:38,121 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 18:11:38,123 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@c9803758])
+07 Apr 2024 18:11:47,125 TRACE repository.DBFlightsRepository 110 getOne - Enter Searching Flight with id: 5
+07 Apr 2024 18:11:47,125 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 18:11:47,125 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a2e3f9c)
+07 Apr 2024 18:11:47,127 TRACE repository.DBFlightsRepository 89 updateFlight - Enter Update task domain.Flight@c9803739 elem
+07 Apr 2024 18:11:47,128 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 18:11:47,128 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a2e3f9c)
+07 Apr 2024 18:11:47,138 TRACE repository.DBFlightsRepository 100 updateFlight - Updated 1 entries
+07 Apr 2024 18:11:47,138 TRACE repository.DBTicketRepository 81 addOne - Enter saving task domain.Ticket@b3c38517 elem
+07 Apr 2024 18:11:47,139 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 18:11:47,139 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 18:11:47,139 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+07 Apr 2024 18:11:47,139 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 18:11:47,139 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 18:11:47,141 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@55b23b73)
+07 Apr 2024 18:11:47,148 TRACE repository.DBTicketRepository 97 addOne - Saved 1 entities
+07 Apr 2024 18:11:47,148 TRACE repository.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 18:11:47,148 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a2e3f9c)
+07 Apr 2024 18:11:47,148 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+07 Apr 2024 18:11:47,149 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c9803739])
+08 Apr 2024 10:01:01,970 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+08 Apr 2024 10:01:01,978 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+08 Apr 2024 10:01:01,980 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+08 Apr 2024 10:02:19,989 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+08 Apr 2024 10:02:19,989 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:02:19,989 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+08 Apr 2024 10:02:19,989 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+08 Apr 2024 10:02:19,990 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+08 Apr 2024 10:02:19,990 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+08 Apr 2024 10:02:20,221 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@63d8d0d7)
+08 Apr 2024 10:02:20,226 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+08 Apr 2024 10:02:20,227 TRACE repository.DBUsersRepository 47 getOne - Enter Getting user with username: admin
+08 Apr 2024 10:02:20,227 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:02:20,227 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@63d8d0d7)
+08 Apr 2024 10:02:20,230 TRACE repository.DBUsersRepository 57 getOne - Exit Found user with id 1
+08 Apr 2024 10:02:21,249 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:02:21,249 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+08 Apr 2024 10:02:21,249 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+08 Apr 2024 10:02:21,250 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+08 Apr 2024 10:02:21,250 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+08 Apr 2024 10:02:21,251 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@122bd4e)
+08 Apr 2024 10:02:21,251 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+08 Apr 2024 10:02:21,255 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c9803739])
+08 Apr 2024 10:02:25,691 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user luci
+08 Apr 2024 10:02:25,692 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:02:25,692 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@63d8d0d7)
+08 Apr 2024 10:02:25,693 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+08 Apr 2024 10:02:25,693 TRACE repository.DBUsersRepository 47 getOne - Enter Getting user with username: luci
+08 Apr 2024 10:02:25,693 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:02:25,694 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@63d8d0d7)
+08 Apr 2024 10:02:25,694 TRACE repository.DBUsersRepository 57 getOne - Exit Found user with id 2
+08 Apr 2024 10:02:26,703 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:02:26,704 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@122bd4e)
+08 Apr 2024 10:02:26,704 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+08 Apr 2024 10:02:26,705 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c9803739])
+08 Apr 2024 10:02:49,016 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+08 Apr 2024 10:02:49,021 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+08 Apr 2024 10:02:49,023 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+08 Apr 2024 10:02:53,774 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+08 Apr 2024 10:02:53,774 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:02:53,775 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+08 Apr 2024 10:02:53,775 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+08 Apr 2024 10:02:53,775 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+08 Apr 2024 10:02:53,775 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+08 Apr 2024 10:02:53,969 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59c6b27c)
+08 Apr 2024 10:02:53,974 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+08 Apr 2024 10:02:53,975 TRACE repository.DBUsersRepository 47 getOne - Enter Getting user with username: admin
+08 Apr 2024 10:02:53,975 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:02:53,976 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59c6b27c)
+08 Apr 2024 10:02:53,978 TRACE repository.DBUsersRepository 57 getOne - Exit Found user with id 1
+08 Apr 2024 10:02:54,987 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:02:54,988 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+08 Apr 2024 10:02:54,988 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+08 Apr 2024 10:02:54,988 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+08 Apr 2024 10:02:54,988 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+08 Apr 2024 10:02:54,989 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25831c14)
+08 Apr 2024 10:02:54,990 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+08 Apr 2024 10:02:54,995 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c9803739])
+08 Apr 2024 10:04:08,968 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+08 Apr 2024 10:04:08,973 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+08 Apr 2024 10:04:08,974 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+08 Apr 2024 10:04:10,830 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+08 Apr 2024 10:04:10,831 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:04:10,831 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+08 Apr 2024 10:04:10,831 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+08 Apr 2024 10:04:10,832 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+08 Apr 2024 10:04:10,832 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+08 Apr 2024 10:04:11,015 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6af70846)
+08 Apr 2024 10:04:11,021 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+08 Apr 2024 10:04:14,695 TRACE repository.DBUsersRepository 47 getOne - Enter Getting user with username: admin
+08 Apr 2024 10:04:14,697 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:04:14,698 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6af70846)
+08 Apr 2024 10:04:14,706 TRACE repository.DBUsersRepository 57 getOne - Exit Found user with id 1
+08 Apr 2024 10:05:01,077 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:05:01,078 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+08 Apr 2024 10:05:01,078 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+08 Apr 2024 10:05:01,078 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+08 Apr 2024 10:05:01,078 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+08 Apr 2024 10:05:01,079 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@bf591a6)
+08 Apr 2024 10:05:01,079 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+08 Apr 2024 10:05:01,084 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c9803739])
+08 Apr 2024 10:05:41,318 INFO  repository.DBUsersRepository 19 <init> - Initializing DBUsersRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+08 Apr 2024 10:05:41,326 INFO  repository.DBFlightsRepository 24 <init> - Initializing DBFlightsRepository with poroperties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+08 Apr 2024 10:05:41,328 INFO  repository.DBTicketRepository 19 <init> - Initializing DBTicketsRepository with properties: {jdbc.url=jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db}
+08 Apr 2024 10:06:15,000 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user admin
+08 Apr 2024 10:06:15,000 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:06:15,001 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+08 Apr 2024 10:06:15,001 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+08 Apr 2024 10:06:15,001 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+08 Apr 2024 10:06:15,001 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+08 Apr 2024 10:06:15,219 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59c6b27c)
+08 Apr 2024 10:06:15,224 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+08 Apr 2024 10:06:15,225 TRACE repository.DBUsersRepository 47 getOne - Enter Getting user with username: admin
+08 Apr 2024 10:06:15,225 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:06:15,226 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59c6b27c)
+08 Apr 2024 10:06:15,228 TRACE repository.DBUsersRepository 57 getOne - Exit Found user with id 1
+08 Apr 2024 10:06:16,234 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:06:16,235 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+08 Apr 2024 10:06:16,235 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+08 Apr 2024 10:06:16,235 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+08 Apr 2024 10:06:16,235 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+08 Apr 2024 10:06:16,236 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25831c14)
+08 Apr 2024 10:06:16,236 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+08 Apr 2024 10:06:16,240 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c9803739])
+08 Apr 2024 10:06:18,138 TRACE repository.DBUsersRepository 25 checkUser - Enter Searching user luci
+08 Apr 2024 10:06:18,138 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:06:18,139 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59c6b27c)
+08 Apr 2024 10:06:18,139 TRACE repository.DBUsersRepository 32 checkUser - Exit with(Found correct user)
+08 Apr 2024 10:06:18,140 TRACE repository.DBUsersRepository 47 getOne - Enter Getting user with username: luci
+08 Apr 2024 10:06:18,140 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:06:18,140 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59c6b27c)
+08 Apr 2024 10:06:18,141 TRACE repository.DBUsersRepository 57 getOne - Exit Found user with id 2
+08 Apr 2024 10:06:19,144 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:06:19,145 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25831c14)
+08 Apr 2024 10:06:19,145 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+08 Apr 2024 10:06:19,146 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c9803739])
+08 Apr 2024 10:06:30,770 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:06:30,770 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25831c14)
+08 Apr 2024 10:06:30,770 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+08 Apr 2024 10:06:30,772 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@c9803739])
+08 Apr 2024 10:06:46,890 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:06:46,890 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25831c14)
+08 Apr 2024 10:06:46,890 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+08 Apr 2024 10:06:46,891 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@c9803739])
+08 Apr 2024 10:06:56,204 TRACE repository.DBFlightsRepository 110 getOne - Enter Searching Flight with id: 5
+08 Apr 2024 10:06:56,204 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:06:56,204 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25831c14)
+08 Apr 2024 10:06:56,206 TRACE repository.DBFlightsRepository 89 updateFlight - Enter Update task domain.Flight@c98036fb elem
+08 Apr 2024 10:06:56,206 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:06:56,206 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25831c14)
+08 Apr 2024 10:06:56,213 TRACE repository.DBFlightsRepository 100 updateFlight - Updated 1 entries
+08 Apr 2024 10:06:56,214 TRACE repository.DBTicketRepository 81 addOne - Enter saving task domain.Ticket@f02b9e7 elem
+08 Apr 2024 10:06:56,214 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:06:56,214 TRACE repository.JdbcUtils 25 getNewConnection - Enter
+08 Apr 2024 10:06:56,214 INFO  repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:/Sem4/Mpp/DB/TourismAgency.db
+08 Apr 2024 10:06:56,214 INFO  repository.JdbcUtils 31 getNewConnection - user: null
+08 Apr 2024 10:06:56,214 INFO  repository.JdbcUtils 32 getNewConnection - pass: null
+08 Apr 2024 10:06:56,220 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@9433f8c)
+08 Apr 2024 10:06:56,225 TRACE repository.DBTicketRepository 97 addOne - Saved 1 entities
+08 Apr 2024 10:06:56,226 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:06:56,226 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25831c14)
+08 Apr 2024 10:06:56,226 TRACE repository.DBFlightsRepository 37 getFiltered - Enter
+08 Apr 2024 10:06:56,228 TRACE repository.DBFlightsRepository 67 getFiltered - Exit with([domain.Flight@eb353dd8, domain.Flight@95a2d677, domain.Flight@c98036fb])
+08 Apr 2024 10:07:07,874 TRACE repository.DBUsersRepository 47 getOne - Enter Getting user with username: admin
+08 Apr 2024 10:07:07,874 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:07:07,874 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59c6b27c)
+08 Apr 2024 10:07:07,875 TRACE repository.DBUsersRepository 57 getOne - Exit Found user with id 1
+08 Apr 2024 10:07:37,898 TRACE repository.DBUsersRepository 47 getOne - Enter Getting user with username: luci
+08 Apr 2024 10:07:37,898 TRACE repository.JdbcUtils 48 getConnection - Enter
+08 Apr 2024 10:07:37,898 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59c6b27c)
+08 Apr 2024 10:07:37,899 TRACE repository.DBUsersRepository 57 getOne - Exit Found user with id 2

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="587.0" prefWidth="669.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.ClientController">
+   <children>
+      <TableView fx:id="flightsTable" layoutX="109.0" layoutY="24.0" prefHeight="211.0" prefWidth="451.0">
+        <columns>
+          <TableColumn fx:id="destCol" prefWidth="75.0" text="Destination" />
+          <TableColumn fx:id="dateCol" prefWidth="107.20001220703125" text="Departure Date" />
+            <TableColumn fx:id="timeCol" prefWidth="114.20002746582031" text="Departure Time" />
+            <TableColumn fx:id="airportCol" prefWidth="75.0" text="Airport" />
+            <TableColumn fx:id="seatsCol" prefWidth="77.59996337890624" text="No. Seats" />
+        </columns>
+      </TableView>
+      <Label layoutX="51.0" layoutY="261.0" text="Destination:" />
+      <DatePicker fx:id="datePickDeparture" layoutX="126.0" layoutY="287.0" />
+      <Label layoutX="32.0" layoutY="291.0" text="Departure date:" />
+      <TextField fx:id="txtDestination" layoutX="126.0" layoutY="257.0" prefHeight="26.0" prefWidth="175.0" />
+      <Button fx:id="btnSearch" layoutX="48.0" layoutY="323.0" mnemonicParsing="false" text="Search" />
+      <TableView fx:id="tableSearchFlights" layoutX="325.0" layoutY="257.0" prefHeight="287.0" prefWidth="314.0">
+        <columns>
+          <TableColumn fx:id="destSearchCol" prefWidth="104.79998779296875" text="Destination" />
+          <TableColumn fx:id="timeSearchCol" prefWidth="103.39999389648438" text="Departure Time" />
+            <TableColumn fx:id="seatsSearchCol" prefWidth="106.20001220703125" text="Available Seats" />
+        </columns>
+      </TableView>
+      <Label layoutX="32.0" layoutY="363.0" text="Client Name:" />
+      <Label layoutX="26.0" layoutY="401.0" text="Tourists Name:" />
+      <Label layoutX="47.0" layoutY="505.0" text="No. Seats:" />
+      <Spinner fx:id="spinSeats" layoutX="115.0" layoutY="501.0" prefHeight="26.0" prefWidth="52.0" />
+      <TextField fx:id="txtClient" layoutX="115.0" layoutY="359.0" prefHeight="26.0" prefWidth="175.0" />
+      <TextArea fx:id="txtTourists" layoutX="114.0" layoutY="397.0" prefHeight="54.0" prefWidth="175.0" promptText="Introduce the names of tourists split by ;" />
+      <Button fx:id="btnTicket" layoutX="202.0" layoutY="502.0" mnemonicParsing="false" text="Buy Ticket" />
+      <TextField fx:id="txtAddress" layoutX="115.0" layoutY="464.0" prefHeight="26.0" prefWidth="175.0" />
+      <Label layoutX="60.0" layoutY="468.0" text="Address:" />
+   </children>
+</AnchorPane>
