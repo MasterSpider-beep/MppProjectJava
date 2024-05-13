@@ -1,45 +1,37 @@
 package domain;
 
-import java.util.ArrayList;
-import java.util.Collection;
+import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.validation.constraints.NotNull;
+
 import java.util.List;
-import java.util.Objects;
 
-public class Ticket extends Entity {
+import static jakarta.persistence.GenerationType.IDENTITY;
+
+@Entity
+@Table(name = "Tickets")
+public class Ticket {
+    private Integer id;
     private String clientName;
-    private final List<String> tourists = new ArrayList<>();
+    private String tourists;
     private int flightId;
-
-    public Ticket(String clientName, int flightId, String address, int noSeats) {
+    private String address;
+    private int noSeats;
+    public Ticket(){this.tourists = "";}
+    public Ticket (String clientName, int flightId, String address, int noSeats){
         this.clientName = clientName;
         this.flightId = flightId;
         this.address = address;
         this.noSeats = noSeats;
+        this.tourists = "";
     }
 
-    public int getFlightId() {
-        return flightId;
-    }
+    @Id
+    @GeneratedValue(strategy = IDENTITY)
+    public Integer getId() {return id;}
+    public void setId(int id){this.id=id;}
 
-    public void setFlightId(int flightId) {
-        this.flightId = flightId;
-    }
-
-    private String address;
-    private int noSeats;
-
-    public List<String> getTourists() {
-        return tourists;
-    }
-
-    public void addTourist(String tourist) {
-        tourists.add(tourist);
-    }
-
-    public void addTourists(Collection<String> touristsToAdd) {
-        tourists.addAll(touristsToAdd);
-    }
-
+    @NotNull
     public String getClientName() {
         return clientName;
     }
@@ -48,12 +40,42 @@ public class Ticket extends Entity {
         this.clientName = clientName;
     }
 
+    public String getTourists() {
+        return tourists;
+    }
+
+    @Column(name = "flight_id")
+    public int getFlightId() {
+        return flightId;
+    }
+
+    public void setFlightId(int flightId) {
+        this.flightId = flightId;
+    }
+
+    @Override
+    public String toString() {
+        return "TicketHibernate{" +
+                "id=" + id +
+                ", clientName='" + clientName + '\'' +
+                ", tourists='" + tourists + '\'' +
+                ", flightId=" + flightId +
+                ", address='" + address + '\'' +
+                ", noSeats=" + noSeats +
+                '}';
+    }
+
+    @NotNull
     public String getAddress() {
         return address;
     }
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public void setTourists(String tourists) {
+        this.tourists = tourists;
     }
 
     public int getNoSeats() {
@@ -64,26 +86,7 @@ public class Ticket extends Entity {
         this.noSeats = noSeats;
     }
 
-    public Ticket() {
-    }
-
-    public Ticket(String clientName, String address, int noSeats) {
-        this.clientName = clientName;
-        this.address = address;
-        this.noSeats = noSeats;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        if (!super.equals(o)) return false;
-        Ticket ticket = (Ticket) o;
-        return noSeats == ticket.noSeats && Objects.equals(clientName, ticket.clientName) && Objects.equals(tourists, ticket.tourists) && Objects.equals(address, ticket.address);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(super.hashCode(), clientName, tourists, address, noSeats);
+    public void addTourists(List<String> touristsList) {
+        touristsList.forEach(tourist->{tourists+=tourist;});
     }
 }

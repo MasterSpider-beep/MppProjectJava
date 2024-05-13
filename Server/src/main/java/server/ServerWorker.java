@@ -34,7 +34,10 @@ public class ServerWorker implements Runnable, IObserver {
     public ServerWorker(IService server, Socket connection) {
         this.server = server;
         this.connection = connection;
-        gsonFormatter = new GsonBuilder().registerTypeAdapter(LocalDate.class, new LocalDateAdapter()).registerTypeAdapter(LocalTime.class, new LocalTimeAdapter()).create();
+        //gsonFormatter = new GsonBuilder().registerTypeAdapter(LocalDate.class, new LocalDateAdapter()).registerTypeAdapter(LocalTime.class, new LocalTimeAdapter()).create();
+        gsonFormatter = new GsonBuilder().registerTypeAdapter(LocalDate.class, new LocalDateAdapter()).
+                registerTypeAdapter(LocalTime.class, new LocalTimeAdapter()).serializeNulls().
+                create();
         try {
             output = new PrintWriter(connection.getOutputStream());
             input = new BufferedReader(new InputStreamReader(connection.getInputStream()));

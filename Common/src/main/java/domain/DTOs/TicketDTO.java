@@ -3,7 +3,7 @@ package domain.DTOs;
 public class TicketDTO {
     private int flightId;
     private String clientName;
-    private String tourists;
+    private String tourists;    
     private String address;
     private int noSeats;
 

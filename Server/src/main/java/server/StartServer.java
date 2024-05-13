@@ -47,7 +47,8 @@ public class StartServer {
         }
         UsersRepository userRepo = new DBUsersRepository(props);
         FlightsRepository flightsRepo = new DBFlightsRepository(props);
-        TicketRepository ticketsRepo = new DBTicketRepository(props);
+        //TicketRepository ticketsRepo = new DBTicketRepository(props);
+        TicketRepository ticketsRepo = new HibernateTicketRepo();
         return new ServiceImpl(userRepo,flightsRepo,ticketsRepo);
     }
 }

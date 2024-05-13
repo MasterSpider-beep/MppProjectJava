@@ -12,6 +12,8 @@ import networking.Request;
 import networking.Response;
 import networking.ResponseType;
 import networking.jsonUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import service.IService;
 import utils.*;
 
@@ -47,8 +49,9 @@ public class ServiceProxy implements IService {
     private void initializeConnection() throws AppException {
         try {
             gsonFormatter = new GsonBuilder().registerTypeAdapter(LocalDate.class, new LocalDateAdapter()).
-                    registerTypeAdapter(LocalTime.class, new LocalTimeAdapter()).
+                    registerTypeAdapter(LocalTime.class, new LocalTimeAdapter()).serializeNulls().
                     create();
+            //gsonFormatter = new Gson();
             connection = new Socket(host, port);
             output = new PrintWriter(connection.getOutputStream());
             output.flush();
@@ -93,12 +96,16 @@ public class ServiceProxy implements IService {
         client.ticketBought(flights);
     }
 
+    private static final Logger logger = LogManager.getLogger();
     private class ReaderThread implements Runnable {
         public void run() {
             while (!finished) {
                 try {
+                    logger.traceEntry("Trying to read line...");
+                    System.out.println("Trying to read line...");
                     String responseLine = input.readLine();
-                    System.out.println("response received " + responseLine);
+                    logger.traceExit("Response received: {}", responseLine);
+                    //System.out.println("response received " + responseLine);
                     Response response = gsonFormatter.fromJson(responseLine, Response.class);
                     if (response.getType() == ResponseType.TICKET_BOUGHT) {
                         handleUpdate(response);
