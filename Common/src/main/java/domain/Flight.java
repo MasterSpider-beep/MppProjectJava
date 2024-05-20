@@ -1,10 +1,10 @@
 package domain;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.Objects;
-
-public class Flight extends Entity{
+public class Flight extends Entity implements Comparable<User>, Serializable {
     private String destination;
     private LocalDate departureDate;
     private LocalTime departureTime;
@@ -12,6 +12,15 @@ public class Flight extends Entity{
     private String airport;
 
     public Flight() {
+    }
+
+    public Flight(int id, String destination, LocalDate departureDate, LocalTime departureTime, int availableSeats, String airport){
+        this.destination = destination;
+        this.departureDate = departureDate;
+        this.departureTime = departureTime;
+        this.availableSeats = availableSeats;
+        this.airport = airport;
+        this.id=id;
     }
 
     public String getDestination() {
@@ -74,5 +83,10 @@ public class Flight extends Entity{
     @Override
     public int hashCode() {
         return Objects.hash(super.hashCode(), destination, departureDate, departureTime, availableSeats, airport);
+    }
+
+    @Override
+    public int compareTo(User user) {
+        return Integer.compare(user.id, this.id);
     }
 }

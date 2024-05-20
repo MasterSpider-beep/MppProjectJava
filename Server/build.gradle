@@ -1,6 +1,8 @@
 plugins {
     id 'java'
     id 'application'
+    id 'org.springframework.boot' version '3.2.0'
+    id 'io.spring.dependency-management' version '1.1.5'
 }
 
 group = 'mpp'
@@ -30,6 +32,11 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-community-dialects
     implementation 'org.hibernate.orm:hibernate-community-dialects:6.4.4.Final'
+
+    testImplementation('com.jayway.jsonpath:json-path')
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
 
 application{

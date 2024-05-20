@@ -3,6 +3,7 @@ import domain.DTOs.FlightFilter;
 import domain.Flight;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.springframework.stereotype.Repository;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -15,6 +16,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Properties;
 
+@Repository
 public class DBFlightsRepository implements FlightsRepository{
 
     private final JdbcUtils dbUtils;
@@ -126,6 +128,49 @@ public class DBFlightsRepository implements FlightsRepository{
                 return Optional.empty();
             }
         } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    @Override
+    public int save(Flight flight) {
+        logger.traceEntry("Save task {} elem",flight);
+        Connection con = dbUtils.getConnection();
+        try(PreparedStatement statement = con.prepareStatement
+                ("INSERT INTO Flights (destination,departureDate, departureTime, availableSeats, airport)" +
+                        "VALUES(?,?,?,?,?)")){
+            statement.setString(1,flight.getDestination());
+            statement.setString(2,flight.getDepartureDate().toString());
+            statement.setString(3,flight.getDepartureTime().toString());
+            statement.setInt(4,flight.getAvailableSeats());
+            statement.setString(5,flight.getAirport());
+            int result = statement.executeUpdate();
+            logger.trace("Saved entity {}", flight);
+            PreparedStatement statement1 = con.prepareStatement("SELECT last_insert_rowid() as id");
+            ResultSet resultSet = statement1.executeQuery();
+            resultSet.next();
+            int id = resultSet.getInt("id");
+            return id;
+        } catch (SQLException e) {
+            logger.error(e);
+            throw new RuntimeException(e);
+        }
+    }
+
+    @Override
+    public Flight delete(int id) {
+        logger.traceEntry("Deleting elem with id {}",id);
+        Connection con = dbUtils.getConnection();
+        Optional<Flight> opt = this.getOne(id);
+        if(opt.isEmpty()){
+            return null;
+        }
+        try(PreparedStatement statement = con.prepareStatement("DELETE FROM Flights WHERE id = ?")){
+            statement.setInt(1,id);
+            statement.executeUpdate();
+            return opt.get();
+        } catch (SQLException e) {
+            logger.error(e);
             throw new RuntimeException(e);
         }
     }

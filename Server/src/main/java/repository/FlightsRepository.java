@@ -11,4 +11,6 @@ public interface FlightsRepository {
     public List<Flight> getFiltered(FlightFilter filter);
     public boolean updateFlight(Flight flight);
     public Optional<Flight> getOne(int id);
+    public int save(Flight flight);
+    public Flight delete(int id);
 }

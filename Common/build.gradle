@@ -22,6 +22,9 @@ dependencies {
     // https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-community-dialects
     implementation 'org.hibernate.orm:hibernate-community-dialects:6.4.4.Final'
 
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.13.1'
+
+
 }
 
 test {
